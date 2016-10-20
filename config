@@ -1,0 +1,25 @@
+[account]
+username    = username
+password    = password
+
+[train]
+# Get station name from IRCTC
+from        = KSR BENGALURU - SBC
+to          = YESVANTPUR JN - YPR
+date        = 30-02-2020
+number      = 12345
+# 3A, SL, etc
+class       = SL
+
+[passenger]
+name        = ["Jishnu Mohan"]
+age         = ["10"]
+# M, F
+gender      = ["M"]
+# LB, UB, MB, SL, SU
+berth       = ["UB"]
+mobile      = 9895098950
+
+[sbi]
+username    = bank_username
+password    = bank_password
